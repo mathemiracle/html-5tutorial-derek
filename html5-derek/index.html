@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		h1,h2,h3,h4 {color: red}
+	</style>
+</head>
+<body>
+	 <h1>Happy</h1>
+	 <h2>Lunar</h2>
+	 <h3>New</h3>
+	 <h4>Year</h4>
+	 <br>
+	 <script type="text/javascript" src='./util.js'></script>
+	 <script type="text/javascript">
+			var parentObj = {
+				name: 'MAx',
+				childObj: {
+					grandObj:{
+						collection: [111,15,23,509,112]
+					}
+				}
+			}
+			function double2(param){
+				var result = [];
+				for(var i=0; i< param.length; i++){
+					result.push(param[i]*2);
+				}
+			}
+
+			console.log('IMPERATIVE PROGRAMMING result', double2(parentObj.childObj.grandObj.collection));
+
+			var res = parentObj.childObj.grandObj.collection.map( (item) => item * 2 );
+			console.log('DECLARATIVE PROGRAMMING result', res);
+
+			// console.log (double(  parentObj.childObj.grandObj.collection))
+	 </script>
+	 <abbr title="As Soon as possible">ASAP</abbr>
+	 <b>Bold</b>
+	 <hr>
+	 <big>Big</big>
+	 <br>
+	 <i>italics</i>
+	 <br>
+	 <center>Center</center>
+	 <blockquote><i>Today is our most important day</i></blockquote>
+	 <p>Long ago</p>
+	 <q>Today is our most important dayy	</q>
+	 <s>gg</s>
+	 <small>Small</small>
+	 <strong>Strong</strong>
+	 <hr>
+	 <sub>x</sub>
+	 <sup>2</sup>
+	 <img src="http://i.imgur.com/wQ6tQ6Sg.jpg" alt="Cover photo" title="lars van de goor" height="415" width="300"/>
+	<dl>
+	<dt>car</dt>
+	<dd>has 4 wheels </dd>
+
+	</dl>
+	<ol>
+		<li>Car</li>
+		<li>Bo</li>
+	</ol>
+
+	<ul>
+		<li>A</li>
+		<li>B</li>
+	</ul>
+	<a href="http://aops.com" target="_blank"> My solution</a>
+	<hr>
+	<table summary="anecdotes">
+		<caption>Routine</caption>
+		<tr>
+		<th>year</th>
+		<th>1990</th>
+		<th>1991</th>
+		<th>1992</th>
+
+
+		</tr>
+		<tr>
+			<th>percentage</th>
+			<th>65%</th>
+			<th>78%</th>
+			<th>83%</th>
+		</tr>
+		<form action="https://mail.google.com/mail/u/0/#inbox/159e300348311d3d" method="post">
+			<b>Leave feedback</b><br>
+			<input type="text" name="email" size="50"><br>
+			<textarea cols="40" rows="10" name="message">Defalt text</textarea>
+			</table>
+	<input type="radio" name="email" value="Home"> Homemail
+	<input type="radio" name="email" value="Work"> Workmail
+	<input type="checkbox" name="abc" value="Learn">XYZ
+	<input type="checkbox" name="nbk" value="play">MNK
+	<select name="selectinput" id="">
+		<option value="loveselect">I love</option>
+		<option value="hateselect">I hate</option>
+	</select>
+	<input type="hidden" name="Summitted" value="True">
+	<input type="summit" value="Send">
+		</form>
+</body>
+</html>
+
