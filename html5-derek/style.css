@@ -1,0 +1,21 @@
+h1, h2 {
+	color: red;
+}
+.new{
+	color:red;
+}
+/* Change the color of links in the document based on events */
+a:hover { color: blue; }
+a:active { color: red; }
+a:visited { color: #989898; }
+body {
+	background: teal
+;
+}
+/* Preference the div wrapper, use # */
+div#wrapper{
+	margin: auto;
+	background: white;
+	width: 800px;
+	height: 2000px;
+}
